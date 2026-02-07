@@ -1,4 +1,4 @@
-#GRASP HACKATHON
+# GRASP HACKATHON
 # AI-Assisted Rural Health Triage & Care Navigation
 
 ## Overview
@@ -105,13 +105,14 @@ This prototype uses **rule-based decision logic** to simulate AI behavior.
 ```bash
 cd backend
 pip install -r requirements.txt
-python app.py
+uvicorn app.main:app --host 0.0.0.0
+
 
 Frontend Setup
 
 cd frontend
 npm install
-npm start
+npm run dev
 
 
 ---
