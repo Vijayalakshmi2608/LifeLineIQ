@@ -108,7 +108,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0
 
 
-Frontend Setup
+### Frontend Setup
 
 cd frontend
 npm install
@@ -116,7 +116,7 @@ npm run dev
 
 
 
-Repository Structure
+### Repository Structure
 
 /frontend    → React-based user interface
 /backend     → Python backend services
