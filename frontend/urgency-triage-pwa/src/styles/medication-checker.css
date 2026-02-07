@@ -1,0 +1,55 @@
+.safe-badge {
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  background: rgba(34, 197, 94, 0.08);
+  color: var(--color-ink);
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.interactions-warning {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.interaction-alert {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+.interaction-alert.severe {
+  border-color: rgba(239, 68, 68, 0.5);
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.interaction-alert.moderate {
+  border-color: rgba(245, 158, 11, 0.5);
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.interaction-alert.minor {
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.drugs {
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.recommendation {
+  margin-top: var(--space-2);
+  font-weight: 600;
+}

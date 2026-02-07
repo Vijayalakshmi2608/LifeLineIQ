@@ -1,0 +1,6 @@
+@import './styles/globals.css';
+@import 'leaflet/dist/leaflet.css';
+
+#root {
+  min-height: 100vh;
+}

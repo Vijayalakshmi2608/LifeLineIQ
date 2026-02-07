@@ -1,0 +1,69 @@
+.settings-page {
+  padding: var(--space-8) clamp(var(--space-4), 6vw, var(--space-12))
+    var(--space-12);
+  display: grid;
+  gap: var(--space-5);
+}
+
+.settings-card {
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.settings-card h2 {
+  margin-bottom: var(--space-1);
+}
+
+.settings-card p,
+.settings-card span {
+  color: var(--color-ink-muted);
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.language-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.language-pill {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-alt);
+  color: var(--color-ink);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.language-pill:hover {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.4);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+}
+
+body.theme-dark .language-pill {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(148, 163, 184, 0.3);
+  color: #e2e8f0;
+}
+
+body.theme-dark .language-pill:hover {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: rgba(16, 185, 129, 0.5);
+  color: #e2f7f0;
+}

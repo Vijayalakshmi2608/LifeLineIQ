@@ -1,0 +1,74 @@
+.followup-page {
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+  padding: var(--space-8) var(--space-4);
+}
+
+.followup-card {
+  max-width: 520px;
+  width: 100%;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-6);
+  display: grid;
+  gap: var(--space-4);
+}
+
+.response-buttons {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.response-buttons button {
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-alt);
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.response-buttons button.active {
+  border-color: rgba(16, 185, 129, 0.5);
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--color-primary);
+}
+
+.followup-extra textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  padding: 0.6rem;
+  background: var(--color-surface-alt);
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.submit-btn {
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  border: none;
+}
+
+.link-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-secondary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error {
+  color: #ef4444;
+}

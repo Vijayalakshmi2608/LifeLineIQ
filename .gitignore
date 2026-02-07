@@ -1,0 +1,14 @@
+.env
+.venv/
+backend/.venv/
+node_modules/
+backend/node_modules/
+__pycache__/
+*.pyc
+
+# Local/dev artifacts
+.env
+backend/.env
+backend/triage.db
+backend/uploads/
+.vscode/

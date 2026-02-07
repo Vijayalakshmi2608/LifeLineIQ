@@ -1,0 +1,53 @@
+export const theme = {
+  colors: {
+    primary: '#10B981',
+    secondary: '#3B82F6',
+    urgent: '#F59E0B',
+    emergency: '#EF4444',
+    surface: '#FFFFFF',
+    surfaceAlt: '#F8FAFC',
+    ink: '#0F172A',
+    inkMuted: '#475569',
+    border: '#E2E8F0',
+  },
+  typography: {
+    display: "'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif",
+    body: "'Inter', 'Segoe UI', system-ui, sans-serif",
+    scale: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+    },
+  },
+  spacing: {
+    1: '0.25rem',
+    2: '0.5rem',
+    3: '0.75rem',
+    4: '1rem',
+    5: '1.25rem',
+    6: '1.5rem',
+    8: '2rem',
+    10: '2.5rem',
+    12: '3rem',
+    16: '4rem',
+  },
+  radius: {
+    sm: '8px',
+    md: '12px',
+    lg: '18px',
+    xl: '24px',
+  },
+  shadow: {
+    soft: '0 8px 24px rgba(15, 23, 42, 0.08)',
+    card: '0 16px 40px rgba(15, 23, 42, 0.12)',
+  },
+  gradients: {
+    surface: 'linear-gradient(135deg, #ECFDF3 0%, #F8FAFC 60%, #FFFFFF 100%)',
+    accent: 'linear-gradient(135deg, #10B981 0%, #3B82F6 100%)',
+  },
+}
