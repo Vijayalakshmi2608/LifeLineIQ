@@ -117,6 +117,7 @@ npm run dev
 
 ---
 
+
 Repository Structure
 
 /frontend    → React-based user interface
@@ -124,7 +125,7 @@ Repository Structure
 README.md
 
 
----
+
 
 Prototype Scope
 
